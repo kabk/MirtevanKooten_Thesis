@@ -4,6 +4,7 @@ body {
 	height 100%; */
 	font-size: 9pt;
 	font-family: Cabin;
+	letter-spacing: 0.4px;
 }
 
 html, body {
@@ -13,11 +14,14 @@ html, body {
 h1 {
 	font-size: 16px;
 	font-style: bold;
+	/*color: #4DB8B8;*/
 }
 
 h2 {
 	font-size: 14px;
 	font-style: bold;
+	/*color: #4DB8B8;*/
+
 }
 
 h3 {
@@ -50,7 +54,7 @@ sup {
 }
 
 b {
-	color: #4DB8B8;
+	/*color: #4DB8B8;*/
 }
 
 i {
@@ -92,7 +96,7 @@ img {
 	position: fixed;
 	right: 30px;
 	height: 100%;
-	width: 180px;
+	width: 200px;
 	top: 20px;
 	overflow-y: hidden;
 	line-height: 2;
@@ -176,13 +180,13 @@ img {
 	-ms-transform: skew(0deg,3deg); /* IE 9 */
     -webkit-transform: skew(0deg,3deg); /* Chrome, Safari, Opera */
     transform: skew(0deg,3deg);
-	padding-left: 100%;
+/*	padding-left: 100%;
     margin-left: -100%;
     padding-right: 100%;
     margin-right: -100%;
     padding-top: 30px;
     padding-bottom: 30px;
-    outline: red solid ;
+    outline: #4DB8B8 solid 1px;*/
 }
 
 .backpack, .building, .location, .flexible, .nomads, .liquid,
@@ -192,6 +196,28 @@ img {
     -webkit-transform: skew(0deg,-3deg); /* Chrome, Safari, Opera */
     transform: skew(0deg,-3deg);
     width: 100%;
+}
+
+.line1 {
+	position: absolute;
+    top: 800px;
+    left: 10px;
+    width: 100%;
+    -ms-transform: skew(0deg,-2deg); /* IE 9 */
+    -webkit-transform: skew(0deg,-2deg); /* Chrome, Safari, Opera */
+    transform: skew(0deg,-2deg);
+    left: -2px;
+}
+
+.line2 {
+	position: absolute;
+    top: 1380px;
+    left: 10px;
+    width: 100%;
+    -ms-transform: skew(0deg,2deg); /* IE 9 */
+    -webkit-transform: skew(0deg,2deg); /* Chrome, Safari, Opera */
+    transform: skew(0deg,2deg);
+    left: -2px;
 }
 
 .image1 {
