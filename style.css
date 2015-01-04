@@ -176,7 +176,7 @@ img {
 	-ms-transform: skew(0deg,3deg); /* IE 9 */
     -webkit-transform: skew(0deg,3deg); /* Chrome, Safari, Opera */
     transform: skew(0deg,3deg);
-/*    padding-left: 100%;
+	padding-left: 100%;
     margin-left: -100%;
     padding-right: 100%;
     margin-right: -100%;
@@ -184,7 +184,7 @@ img {
     padding-top: 30px;
     margin-bottom: -30px;
     padding-bottom: 30px;
-    outline: red solid ;*/
+    outline: red solid ;
 }
 
 .backpack, .building, .location, .flexible, .nomads, .liquid,
