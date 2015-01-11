@@ -5,6 +5,7 @@ body {
 	font-size: 9pt;
 	font-family: Cabin;
 	letter-spacing: 0.4px;
+
 }
 
 html, body {
@@ -20,7 +21,6 @@ h1 {
 h2 {
 	font-size: 14px;
 	font-style: bold;
-
 	/*color: #4DB8B8;*/
 
 }
@@ -29,9 +29,8 @@ h3 {
 	position: relative;
 	font-size: 12.5px;
 	font-weight: bold;
-	left: 75px;
-		opacity: 0.5;
-
+	color: #4DB8B8;
+	left: 100px;
 }
 
 h4 {
@@ -39,15 +38,14 @@ h4 {
 	font-size: 9px;
 	font-weight: normal;
 	font-style: italic;
-	left: 50%;
-	margin-left: -200px;
-	width: 400px;
+	width: 100%;
 }
 
 h5 {
 	font-size: 10px;
 	font-family: helvetica;
 	display: inline;
+
 	}
 
 sup {
@@ -68,7 +66,7 @@ a {
 }
 
 a:hover {
-	opacity: 0.5;
+	color: #4DB8B8;
 }
 
 
@@ -82,9 +80,10 @@ img {
 	position: absolute;
 	left: 50%;
 	top: 300px;
-	width: 500px;
-	margin: -250px;
+	width: 350px;
+	margin: -175px;
 	line-height: 1.5;
+	text-align: justify;
 }
 
 .container img {
@@ -156,26 +155,26 @@ img {
 .mainsources {
 	position: absolute;
 	left: -01px;
-	top: -30px;
+	top: -5px;
 	bottom: 0px;
 	height: 3000px;
-	width: 10%;
+	width: 8%;
 	font-size: 8px;
 /*    outline: #4DB8B8 dashed 1.5px; */
     padding: 40px;
 }
 
-.startingpoint, .backpack, .foundation, .building, .citizenship, 
+.startingpoint, .backpack1, .backpack2, .foundation, .building1, .building2, .citizenship, 
 .location, .country, .flexible, .moving, .nomads, .globalnomads, 
 .liquid, .objects, .invisible, .conclusion, .discussion, .sources {
-	margin-top: 70px;
+	margin-top: 50px;
 	position: relative;
 	left: 0px;
 	height: 100%;
 
 }
 
-.startingpoint, .foundation, .citizenship, .country, .moving,
+.foundation, .backpack1, .citizenship1, .country, .moving,
 .globalnomads, .objects, .conclusion, .sources {
 	left: 50px;
 	-ms-transform: skew(0deg,3deg); /* IE 9 */
@@ -190,7 +189,7 @@ img {
     outline: #4DB8B8 solid 1px;*/
 }
 
-.backpack, .building, .location, .flexible, .nomads, .liquid,
+.backpack2, .citizenship2, .location, .flexible, .nomads, .liquid,
 .invisible, .discussion {
 	left: -50px;
 	-ms-transform: skew(0deg,-3deg); /* IE 9 */
@@ -199,15 +198,37 @@ img {
     width: 100%;
 }
 
-.sources {
-	width: 600px;
-	margin-bottom: 75px;
+
+.foundation {
+	margin-top: 65px;
+}
+
+.backpack2 {
+	margin-top: 0px;
+}
+
+.building1 {
+	margin-top: 50px;
+		width: 350px;
+		left: -150px;
+		-ms-transform: skew(0deg,-3deg); 
+	    -webkit-transform: skew(-0deg,-3deg); 
+	    transform: skew(-0deg,-3deg);
+}
+
+.building2 {
+	margin-top: -250px;
+	width: 350px;
+	left: 365px;
+	-ms-transform: skew(0deg,10deg); 
+    -webkit-transform: skew(-0deg,10deg); 
+    transform: skew(-0deg,10deg);
+
 }
 
 .line1 {
-	opacity: 0.5;
 	position: absolute;
-    top: 770px;
+    top: 800px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,-2deg); /* IE 9 */
@@ -217,74 +238,13 @@ img {
 }
 
 .line2 {
-	opacity: 0.5;
 	position: absolute;
-    top: 2090px;
-    left: 10px;
-    width: 100%;
-    -ms-transform: skew(0deg,-2deg); /* IE 9 */
-    -webkit-transform: skew(0deg,-2deg); /* Chrome, Safari, Opera */
-    transform: skew(0deg,-2deg);
-    left: -2px;
-}
-
-.line3 {
-	opacity: 0.5;
-	position: absolute;
-    top: 4660px;
+    top: 1380px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,2deg); /* IE 9 */
     -webkit-transform: skew(0deg,2deg); /* Chrome, Safari, Opera */
     transform: skew(0deg,2deg);
-    left: -2px;
-}
-
-.line4 {
-	opacity: 0.5;
-	position: absolute;
-    top: 8440px;
-    left: 10px;
-    width: 100%;
-    -ms-transform: skew(0deg,-2deg); /* IE 9 */
-    -webkit-transform: skew(0deg,-2deg); /* Chrome, Safari, Opera */
-    transform: skew(0deg,-2deg);
-    left: -2px;
-}
-
-.line5 {
-	opacity: 0.5;
-	position: absolute;
-    top: 10110px;
-    left: 10px;
-    width: 100%;
-    -ms-transform: skew(0deg,2deg); /* IE 9 */
-    -webkit-transform: skew(0deg,2deg); /* Chrome, Safari, Opera */
-    transform: skew(0deg,2deg);
-    left: -2px;
-}
-
-.line6 {
-	opacity: 0.5;
-	position: absolute;
-    top: 12390px;
-    left: 10px;
-    width: 100%;
-    -ms-transform: skew(0deg,-2deg); /* IE 9 */
-    -webkit-transform: skew(0deg,-2deg); /* Chrome, Safari, Opera */
-    transform: skew(0deg,-2deg);
-    left: -2px;
-}
-
-.line7 {
-	opacity: 0.5;
-	position: absolute;
-    top: 13950px;
-    left: 10px;
-    width: 100%;
-    -ms-transform: skew(0deg,-2deg); /* IE 9 */
-    -webkit-transform: skew(0deg,-2deg); /* Chrome, Safari, Opera */
-    transform: skew(0deg,-2deg);
     left: -2px;
 }
 
