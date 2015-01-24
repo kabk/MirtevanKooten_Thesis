@@ -156,7 +156,7 @@ img {
 .mainsources {
 	position: absolute;
 	left: -01px;
-	top: -30px;
+	top: 280px;
 	bottom: 0px;
 	height: 3000px;
 	width: 10%;
@@ -167,7 +167,7 @@ img {
 
 .startingpoint, .backpack, .foundation, .building, .citizenship, 
 .location, .country, .flexible, .moving, .nomads, .globalnomads, 
-.liquid, .objects, .invisible, .conclusion, .discussion, .sources {
+.liquid, .objects, .invisible, .conclusion, .abstract, .sources {
 	margin-top: 70px;
 	position: relative;
 	left: 0px;
@@ -191,7 +191,7 @@ img {
 }
 
 .backpack, .building, .location, .flexible, .nomads, .liquid,
-.invisible, .discussion {
+.invisible, .abstract {
 	left: -50px;
 	-ms-transform: skew(0deg,-3deg); /* IE 9 */
     -webkit-transform: skew(0deg,-3deg); /* Chrome, Safari, Opera */
@@ -219,7 +219,7 @@ img {
 .line2 {
 	opacity: 0.5;
 	position: absolute;
-    top: 2090px;
+    top: 2470px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,-2deg); /* IE 9 */
@@ -231,7 +231,7 @@ img {
 .line3 {
 	opacity: 0.5;
 	position: absolute;
-    top: 4660px;
+    top: 5020px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,2deg); /* IE 9 */
@@ -243,7 +243,7 @@ img {
 .line4 {
 	opacity: 0.5;
 	position: absolute;
-    top: 8440px;
+    top: 8770px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,-2deg); /* IE 9 */
@@ -255,7 +255,7 @@ img {
 .line5 {
 	opacity: 0.5;
 	position: absolute;
-    top: 10110px;
+    top: 10450px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,2deg); /* IE 9 */
@@ -267,7 +267,7 @@ img {
 .line6 {
 	opacity: 0.5;
 	position: absolute;
-    top: 12390px;
+    top: 12775px;
     left: 10px;
     width: 100%;
     -ms-transform: skew(0deg,-2deg); /* IE 9 */
@@ -279,12 +279,12 @@ img {
 .line7 {
 	opacity: 0.5;
 	position: absolute;
-    top: 13950px;
+    top: 14010px;
     left: 10px;
     width: 100%;
-    -ms-transform: skew(0deg,-2deg); /* IE 9 */
-    -webkit-transform: skew(0deg,-2deg); /* Chrome, Safari, Opera */
-    transform: skew(0deg,-2deg);
+    -ms-transform: skew(0deg,2deg); /* IE 9 */
+    -webkit-transform: skew(0deg,2deg); /* Chrome, Safari, Opera */
+    transform: skew(0deg,2deg);
     left: -2px;
 }
 
